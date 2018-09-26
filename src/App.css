@@ -23,10 +23,11 @@ label {
 }
 
 .form-group {
-  width: 30%;
+  width: 20%;
 }
 
 .btn-warning {
+  font-size: 20px !important;
   background-color: #ff7700 !important;
   color: #fff !important;
   margin: 20px !important;

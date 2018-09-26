@@ -31,7 +31,7 @@ class Login extends Component {
 
   render() {
     return (
-      <div className="col-lg">
+      <div>
         <h1>Login</h1>
         <form>
           <div class="form-group">
@@ -45,6 +45,7 @@ class Login extends Component {
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Enter email"
+              required
             />
           </div>
           <div class="form-group">
@@ -57,6 +58,7 @@ class Login extends Component {
               class="form-control"
               id="exampleInputPassword1"
               placeholder="Password"
+              required
             />
           </div>
           <button type="submit" onClick={this.login} class="btn btn-warning">

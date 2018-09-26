@@ -35,7 +35,7 @@ class SignUp extends Component {
   }
   render() {
     return (
-      <div className="col-lg">
+      <div>
         <h1>Sign Up</h1>
         <form>
           <div class="form-group">
@@ -49,6 +49,7 @@ class SignUp extends Component {
               id="exampleInputEmail1"
               aria-describedby="emailHelp"
               placeholder="Enter email"
+              required
             />
             <small id="emailHelp" class="form-text text-muted">
               We'll never share your email with anyone else.
@@ -64,6 +65,7 @@ class SignUp extends Component {
               class="form-control"
               id="InputFirstName"
               placeholder="Enter first name"
+              required
             />
           </div>
           <div class="form-group">
@@ -76,6 +78,7 @@ class SignUp extends Component {
               class="form-control"
               id="InputSurname"
               placeholder="Enter surname"
+              required
             />
           </div>
           <div class="form-group">
@@ -88,6 +91,7 @@ class SignUp extends Component {
               class="form-control"
               id="InputDateOfBirth"
               placeholder="Enter date of birth"
+              required
             />
           </div>
           <div class="form-group">
@@ -100,6 +104,7 @@ class SignUp extends Component {
               class="form-control"
               id="exampleInputPassword1"
               placeholder="Password"
+              required
             />
           </div>
           <button
