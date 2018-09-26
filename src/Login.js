@@ -27,6 +27,10 @@ class Login extends Component {
       .catch(error => {
         console.log(error);
       });
+    this.setState({
+      email: "",
+      password: ""
+    });
   }
 
   render() {
